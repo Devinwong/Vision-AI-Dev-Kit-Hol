@@ -87,6 +87,9 @@ In this exercise, you trained your own Image Classification model on Microsoft C
 
 The device provides a shell to directly access to local resources. Here are a few commands you may find them useful. Please use a command prompt to get started.
 
+Please install the USB driver first. It's located at desktop > Lab Room > 0521 > Qud.win.
+After installed it, please launch a command prompt and traverse to desktop > Lab Room >Platform tools and then start using the following commands.
+
 | Commands | Descriptions |
 | --- | --- |
 | adb devices | Check if your workstation detects the camera correctly |
