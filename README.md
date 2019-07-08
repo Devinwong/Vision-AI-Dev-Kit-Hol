@@ -45,27 +45,10 @@ Some training images have already been collected for you for the hard hat use ca
 ## Train and export your custom model
 
 1. To train it with your new training data, go to your Custom Vision project and click on _Train_.
-2. To export it, select tab _Performances_ and _Export_ button. Choose the _Vision AI Dev Kit_ option to download your new custom model in a zip file.
+2. To export it, select tab _Performances_ and _Export_ button. Choose the _Vision AI Dev Kit_ option, right click on the _download_ button and copy the link.
+[Check the screenshot](https://devinwonroupdiag.blob.core.windows.net/hardhatmodel/CV_export_zip.png)
+3. To confirm the link is really pointing to a zip file, visit that link on a browser and see it's asking you to download a zip. If so, keep this link for next step.
 
-## Deploy your custom model to your device
-
-To deploy your custom model, we will first store your model in a publicly accessible location and then update the configuration of the Get Started module to use this model instead of the default one. We will use a cloud blob store to store the model, but a public OneDrive link would just work as well.
-
-## Uploading new custom model files
-
-We&#39;ll start by creating a new storage account and then upload your model to it.
-
-1. Login to the [http://portal.azure.com](http://portal.azure.com/)
-2. Search for _Storage_ and select the _Storage accounts_ _service_
-3. Use your existing subscription and resource group
-4. Give it a unique name, upper case characters are not allowed
-5. Select the _West-US 2_ region
-6. Click on Review + Create (other default options should be correct)
-7. Wait until provisioning is complete and navigate to your new storage account
-8. From the _overview_ tab, click on _Blobs_ service
-9. _Add a new container_, give it a name like _hardhatmodel_ and make sure to select _Container (anonymous read access for containers and blobs)_ for the _Public access level_
-10. Click on the container just created, click on the _Upload_ button and select your model files in a zip file from the custom vision service and _Upload_
-11. Copy the url of the zip file by clicking on it and copying its URL to the clipboard.
 
 ## Updating the configuration of the Get Started module to use your new custom model
 
