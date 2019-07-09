@@ -55,7 +55,7 @@ Some training images have already been collected for you for the hard hat use ca
 1. Login to the [http://portal.azure.com](http://portal.azure.com/) and go to your IoT Hub resource
 2. Click on IoT Edge tab and then on your camera device name.
 3. Click on the _AIVisionDevKitGetStartedModule_ module name and click on _Module Identity Twin_
-4. Update the three desired properties (model, label, vam config) to map to your new URLs and hit _Save_
+4. Update the _ModelZipUrl_ to map to your new URLs and hit _Save_
 
 Within a few minutes, your device should now be running your custom model! You can check the progress locally from the device. For details please see next exercise.
 
