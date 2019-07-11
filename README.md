@@ -66,11 +66,15 @@ Within a few minutes, your device should now be running your custom model! You c
 
 In this exercise, you trained your own Image Classification model on Microsoft Custom Vision Service. Then you got the DLC files from the Custom Vision Service output. By using the _Module Identity Twin,_ you replaced your model directly from cloud storage to local device in a few minutes.
 
-# Exercise 3 (Optional) – Access the device locally
+# Exercise 3 (Optional) – Build your own Object detection AI model
+
+As a next step, you could reuse the same training images but build an object detection model instead of the image classification model in exercise 2. Again, please use Custom Vision Service [https://www.customvision.ai/](https://www.customvision.ai/) and its labeling tool.
+
+# Exercise 4 (Optional) – Access the device locally
 
 The device provides a shell to directly access to local resources. Here are a few commands you may find them useful. Please use a command prompt to get started.
 
-Please install the USB driver first. It's located at desktop > Lab Room > 0521 > Qud.win.
+Please install the USB driver (QUD) first. 
 After installed it, please launch a command prompt and traverse to desktop > Lab Room >Platform tools and then start using the following commands.
 
 | Commands | Descriptions |
@@ -83,8 +87,6 @@ After installed it, please launch a command prompt and traverse to desktop > Lab
 | docker logs -f edgeAgent | Check by following the logs output from edgeAgent container. Ctrl + c to exit |
 | docker logs -f AIVisionDevKitGetStartedModule | Check by following the logs output from the vision module |
 
-# Exercise 4 (Optional) – Build your own Object detection AI model
 
-As a next step, you could reuse the same training images but build an object detection model instead of the image classification model in exercise 2. Again, please use Custom Vision Service [https://www.customvision.ai/](https://www.customvision.ai/) and its labeling tool.
 
 To learn more about this Vision AI Dev Kit, visit [https://azure.github.io/Vision-AI-DevKit-Pages/docs/Get\_Started/](https://azure.github.io/Vision-AI-DevKit-Pages/docs/Get_Started/)
