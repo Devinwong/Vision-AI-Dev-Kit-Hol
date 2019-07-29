@@ -19,6 +19,9 @@ The default passphrase is printed on a label at the bottom of the camera, for ex
 
 In this exercise, you set up the Vision AI Dev Kit so that it connects to internet and IoT Hub. When you went through the OOBE webpages to create the IoT Edge device, it also associated to your camera in the background. Finally, it deployed the get-started vision module from Azure Marketplace dynamically and then you were able to see the inferencing output on HDMI.
 
+This is the system architecture.
+![System architecture](https://www.qualcomm.com/sites/ember/files/uploads/qualcomm_vision_intelligence_platform_azure_iot_edge_diagram.png)
+
 # Exercise 2 – Build your own AI model
 
 We&#39;ll build our own AI model (Image Classification) to detect when someone is wearing a hard hat. You will share a hard hat with other attendees to validate your model built with Custom Vision.
